@@ -41,7 +41,7 @@ import DragArea from './components/DragArea.vue'
 import FileTable from './components/FileTable.vue'
 import { useUpload } from './compositions/useUpload'
 
-const exts = [ '.jpg', '.jpeg', '.bmp', '.webp', '.gif', '.png', '.mp4', '.dmg' ]
+const exts = [ '.jpg', '.jpeg', '.bmp', '.webp', '.gif', '.png', '.mp4', '.dmg', '.ssh' ]
 // 最大size为10M
 const maxSize = 1024 * 1024 * 5000
 const {
